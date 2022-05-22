@@ -1,0 +1,318 @@
+html,body{
+	margin:0%;
+	width:100vw;
+	height:100vh;
+	
+}
+
+.nav{
+	background-color:white;
+}
+
+.container{
+	display:inline-flex;
+	justify-content: space-between;
+	width:100%;
+}
+
+.logo{
+	width:85px;
+	height:63px;
+	transition:all 0.5s ease-in;
+}
+
+.logo:hover{
+     margin-left:60px;
+}
+
+.nav-list{
+	margin-right:100px;
+	line-height:63px;
+}
+
+.list{
+	list-style:none;
+	margin:0;
+	display:inline-flex;
+}
+
+.items{
+	padding-left:50px;
+}
+
+.items a{
+	text-decoration: none;
+	color:#0c093c;
+	font-weight: bold;
+	font-size:1.1rem;
+	transition: all 0.3s ease;
+}
+
+.items a:hover{
+	color:#Ae75C6;/* used to highlight text when cursor is placed on it*/
+}
+
+#body-container{
+	width:100vw;
+	height:calc(100% - 67.36px);
+	/*background:linear-gradient(45deg,#9a40bf,#d15e2e);*/
+}
+
+#part1{
+	width:100vw;
+	height:calc(20% - 10px);
+
+	border-bottom: 5px solid rgba(0,0,0,0.3);
+	border-top: 5px solid rgba(0,0,0,0.3);
+}
+
+#scrolling{
+	margin:0;
+	padding:0;
+	width:100%;
+    height:100%;
+    display:inline-block;
+}
+#partone{
+	position:relative;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+
+#part2{
+	width:100vw;
+	height:80%;
+}
+
+#login-box{
+	
+	width:30%;
+    height:100%;
+    display:inline-block;
+    float:left;
+
+}
+
+
+#input-wrapper{
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:5px;
+	text-align:center;
+	
+	height: calc(100% - 30px);
+	
+	padding:10px;
+	box-shadow: inset 0px 0px 8px rgba(0,0,0,0.7);
+
+}
+
+#news{
+	border-left:5px solid rgba(0,0,0,0.3);
+	border-right:5px solid rgba(0,0,0,0.3);
+	width:calc(40% - 20px);
+    height:100%;
+    display:inline-block;
+    float:left;
+    padding:0px 5px 0px 5px;
+
+}
+
+#news-container{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	text-align:center;
+	width:calc(100% - 20px);
+	height:calc(100% - 30px);
+	padding:10px;
+	box-shadow: inset 0px 0px 8px rgba(0,0,0,0.7);
+}
+
+#news-content{
+	height:calc(100% - 69.04px);
+	overflow-y: auto;/*used for scroll bar*/
+    
+}
+#news-content::-webkit-scrollbar {
+    display: none;
+}/*used to hide scroll bar*/
+
+
+#news-content p{
+	text-align: left;
+}
+
+#news h1{
+	font-family: 'Work Sans', sans-serif;
+    color:white;
+    margin-top:0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(-45deg,#2e9ad1,#45ce31);
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
+    border-radius: 8px;
+
+}
+
+#sub{
+	width:30%;
+    height:100%;
+    display:inline-block;/*used to remove extra whitespace of inline block*/
+    float:left;
+}
+.username{
+	font-family: 'Work Sans', sans-serif;
+	width: 160px;
+	height: 15px;
+	border-radius: 20px;
+	padding: 10px;
+	border-style: solid;
+}
+
+#login-box h1{
+	font-family: 'Work Sans', sans-serif;
+    color:white;
+    margin-top:0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background: linear-gradient(-45deg,#2e9ad1,#45ce31);
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
+    border-radius: 8px;
+
+}
+#login-box input{
+	margin-top: 30px;
+}
+
+
+#input-wrapper div{
+	height:calc(100% - 69.04px);
+	width:100%;
+	overflow: auto;
+}/* user for scroll bar*/
+#input-wrapper ::-webkit-scrollbar {
+    display: none;
+}/* used to hide scroll bar*/
+
+
+#rest{
+	width:auto;
+	height: auto;
+	margin-top: 30px;
+}
+
+.Submit{
+	width: 100px;
+	height: 30px;
+	border-radius: 15px;
+	border-style: solid;
+	
+
+
+
+}
+#Submit{
+	float: left;
+	margin-left: 20%;
+
+}
+#Reset{
+	float:right;
+	margin-right:  10%;
+}
+#loss{
+	margin-left: 50px;
+
+}
+
+#A{
+    width:100%;
+    height:50%;
+    overflow:hidden;/*used for scroll bar*/
+	border-bottom:5px solid rgba(0,0,0,0.3);
+}
+
+#quick-links
+{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	
+	width:calc(100% - 30px);
+	height:calc(100% - 30px);
+	padding:10px;
+	box-shadow: inset 0px 0px 8px rgba(0,0,0,0.7);
+}
+
+#quick-links div{
+	height:calc(100% - 69.04px);
+	width:100%;
+	overflow: auto;
+}
+#quick-links ::-webkit-scrollbar {
+    display: none;
+}/* used for scroll bar*/
+
+
+#quick-links h1
+{
+	font-family: 'Work Sans', sans-serif;
+    color:white;
+    margin-top:0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background: linear-gradient(-45deg,#2e9ad1,#45ce31);
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
+    border-radius: 8px;
+}
+
+#quick-links a{
+	color: green;
+	text-decoration: none;
+}
+#faq a{
+	color: green;
+	text-decoration: none;
+}
+
+#B{
+    width:100%;
+    height:calc(50% - 10px);
+}
+
+#faq{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	
+	width:calc(100% - 30px);
+	height:calc(100% - 25px);
+	padding:10px;
+	box-shadow: inset 0px 0px 8px rgba(0,0,0,0.7);
+}
+
+#faq h1{
+	font-family: 'Work Sans', sans-serif;
+    color:white;
+    margin-top:0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background: linear-gradient(-45deg,#2e9ad1,#45ce31);
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
+    border-radius: 8px;
+}
+#faq div{
+	height:calc(100% - 69.04px);
+	width:100%;
+	overflow: auto;
+}
+#faq ::-webkit-scrollbar {
+    display: none;
+}/*used to hide scroll bar*/
